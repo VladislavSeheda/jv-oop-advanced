@@ -1,7 +1,8 @@
 package core.basesyntax;
 
 public class Figure2 {
-    public void getColor(){
+    public void getColor() {
         String color;
     }
 }
+п
