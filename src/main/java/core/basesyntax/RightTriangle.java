@@ -11,7 +11,6 @@ public class RightTriangle implements Figure {
         this.color = color;
     }
 
-
     @Override
     public double getArea() {
         double area = (firstLeg * secondLeg) / 2;
@@ -20,6 +19,11 @@ public class RightTriangle implements Figure {
 
     @Override
     public void draw() {
-        System.out.println("Figure: RightTriangle, area: " + getArea() + " sq. units, firstLeg: " + firstLeg + " units, secondLeg: " + secondLeg + " units, color: " + color);
+        System.out.println("Figure: RightTriangle, area: "
+                + getArea()
+                + " sq. units, firstLeg: " + firstLeg
+                + " units, secondLeg: "
+                + secondLeg + " units, color: "
+                + color);
     }
 }

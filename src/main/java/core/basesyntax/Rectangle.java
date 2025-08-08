@@ -11,7 +11,6 @@ public class Rectangle implements Figure {
         this.color = color;
     }
 
-
     @Override
     public double getArea() {
         double area = width * height;
@@ -20,6 +19,11 @@ public class Rectangle implements Figure {
 
     @Override
     public void draw() {
-        System.out.println("Figure: Rectangle, area: " + getArea() + " sq. units, width: " + width + " units, height: " + height + " units, color: " + color);
+        System.out.println("Figure: Rectangle, area: "
+                + getArea()
+                + " sq. units, width: "
+                + width + " units, height: "
+                + height + " units, color: "
+                + color);
     }
 }
