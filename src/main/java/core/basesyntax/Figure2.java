@@ -5,4 +5,3 @@ public class Figure2 {
         String color;
     }
 }
-п
