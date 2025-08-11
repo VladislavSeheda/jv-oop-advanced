@@ -1,4 +1,4 @@
-package core.basesyntax;
+`package core.basesyntax;
 
 public abstract class Figure {
     public abstract double getArea();

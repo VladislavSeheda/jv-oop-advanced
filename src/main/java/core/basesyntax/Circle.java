@@ -1,7 +1,7 @@
 package core.basesyntax;
 
 public class Circle extends Figure {
-    int radius;
+    private int radius;
 
     public Circle(String color, int radius) {
         this.color = color;

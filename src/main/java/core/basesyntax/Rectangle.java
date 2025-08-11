@@ -1,8 +1,8 @@
 package core.basesyntax;
 
 public class Rectangle extends Figure {
-    double side;
-    double width;
+    private double side;
+    private double width;
 
     public Rectangle(String color, double side, double width) {
         this.color = color;
