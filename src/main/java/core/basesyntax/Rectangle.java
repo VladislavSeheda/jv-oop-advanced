@@ -19,9 +19,13 @@ public class Rectangle extends Figure {
     @Override
     public void draw() {
         System.out.println("Figure: Rectangle, " +
-                "area: " + getArea() +
-                " width: " + width +
-                " side: " + side +
-                " color: " + color);
+                "area: "
+                + getArea()
+                + " width: "
+                + width
+                + " side: "
+                + side
+                + " color: "
+                + color);
     }
 }
